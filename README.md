@@ -74,6 +74,11 @@ Requirements
 ==============
 This library requires `iOS 8.0+` and `Xcode 8.0+`.
 
+License
+==============
+ MIT license. See LICENSE file for details.
+
+
 <br/><br/>
 ---
 中文介绍
@@ -149,3 +154,7 @@ ddView.didEndChangedBlock = ^(DDScrollProgressView * _Nonnull progressView) {
 系统要求
 ==============
 该项目最低支持 `iOS 8.0` 和 `Xcode 8.0`。
+
+许可证
+==============
+使用 MIT 许可证，详情见 LICENSE 文件。
