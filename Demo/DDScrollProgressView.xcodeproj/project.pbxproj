@@ -28,7 +28,6 @@
 		69BA4D0522446C170065B51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69BA4D0722446C170065B51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BA4D0822446C170065B51E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69BA4D1322447F200065B51E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69D91729224B2B20007C54A8 /* DDScrollProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDScrollProgressView.h; sourceTree = "<group>"; };
 		69D9172A224B2B20007C54A8 /* ExtraIndicateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraIndicateView.h; sourceTree = "<group>"; };
 		69D9172B224B2B20007C54A8 /* DDScrollProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDScrollProgressView.m; sourceTree = "<group>"; };
@@ -72,7 +71,6 @@
 				69BA4CFF22446C110065B51E /* Main.storyboard */,
 				69BA4D0222446C170065B51E /* Assets.xcassets */,
 				69BA4D0722446C170065B51E /* Info.plist */,
-				69BA4D1322447F200065B51E /* README.md */,
 			);
 			path = DDScrollProgressView;
 			sourceTree = "<group>";
