@@ -5,7 +5,7 @@ A lightweight and interactable progress components of iOS
 
 Demo Project
 ==============
-Find  `Demo/DDScrollProgressView.xcodeproj `
+Find  `Demo/DDScrollProgressView.xcodeproj `    
 ![demo~](https://github.com/jaychouzhou/DDScrollProgressView/blob/master/Demo/SupFiles/Snapshot/demo.gif)
 
 Installation
@@ -81,7 +81,7 @@ This library requires `iOS 8.0+` and `Xcode 8.0+`.
 
 演示项目
 ==============
-下载demo，并运行 `Demo/DDScrollProgressView.xcodeproj `
+下载demo，并运行 `Demo/DDScrollProgressView.xcodeproj `  
 ![demo~](https://github.com/jaychouzhou/DDScrollProgressView/blob/master/Demo/SupFiles/Snapshot/demo.gif)
 
 安装
@@ -95,8 +95,7 @@ This library requires `iOS 8.0+` and `Xcode 8.0+`.
 1. 下载 `DDScrollProgressView`文件夹内的所有内容。
 2. 将 `DDScrollProgressView` 内的源文件添加(拖放)到你的工程。
 
-
-Usage
+使用
 ==============
 ### 使用默认ScrollProgressView
 ```objc
