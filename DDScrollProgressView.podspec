@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/jaychouzhou/DDScrollProgressV
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'Classes/**/*'
+s.source_files = 'DDScrollProgressView/**/*'
 
 # s.resource_bundles = {
 #   'brake' => ['brake/Assets/*.png']

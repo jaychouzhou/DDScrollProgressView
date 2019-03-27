@@ -40,8 +40,8 @@ typedef enum :NSUInteger{
     CGFloat gap = 25.0f;
     ExtraIndicateView * extraView = [ExtraIndicateView extraIndicateViewWithDataSource:[ddView getSectionRadians] frame:CGRectMake(x - gap, y - gap, width + gap *2, width + gap *2)];
     ddView.willChangeBlock = ^(DDScrollProgressView * _Nonnull progressView) {
-        [extraView setSelectedIndicate:progressView.curScale];
         [self.scaleValueLabel setText:[NSString stringWithFormat:@"VALUE: %ld",(long)progressView.curScale]];
+        [extraView setSelectedIndicate: ceil(round(progressView.curScale / (float)[progressView getNumberOfSegmentsInSection]))];
         //[extraView setSelectedIndicate: ceil(round(progressView.curScale / 5.0))];
     };
     

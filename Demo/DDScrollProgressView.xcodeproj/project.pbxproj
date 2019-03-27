@@ -93,8 +93,8 @@
 			children = (
 				69D91729224B2B20007C54A8 /* DDScrollProgressView.h */,
 				69D9172B224B2B20007C54A8 /* DDScrollProgressView.m */,
-				69D9172C224B2B20007C54A8 /* ExtraIndicateView.m */,
 				69D9172A224B2B20007C54A8 /* ExtraIndicateView.h */,
+				69D9172C224B2B20007C54A8 /* ExtraIndicateView.m */,
 			);
 			name = DDScrollProgressView;
 			path = ../../DDScrollProgressView;

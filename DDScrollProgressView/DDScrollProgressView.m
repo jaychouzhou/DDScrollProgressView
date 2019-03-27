@@ -224,6 +224,9 @@
     self.ignoreRadian = radian;
 //    [self refreshUI];
     [self setCurScale:0];
+}
 
+-(NSInteger)getNumberOfSegmentsInSection{
+    return self.segmentCounts / self.sections;
 }
 @end

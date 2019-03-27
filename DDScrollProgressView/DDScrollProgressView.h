@@ -34,6 +34,8 @@ typedef void(^DidEndChangedScrollView)(DDScrollProgressView* progressView);
  */
 -(NSArray *)getSectionRadians;
 
+-(NSInteger)getNumberOfSegmentsInSection;
+
 @end
 
 NS_ASSUME_NONNULL_END

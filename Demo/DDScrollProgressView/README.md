@@ -42,7 +42,7 @@ ExtraIndicateView * extraView = [ExtraIndicateView extraIndicateViewWithDataSour
 ddView.willChangeBlock = ^(DDScrollProgressView * _Nonnull progressView) {
 //rotating progress callback
 //Coloring ExtraIndicateView number
-[extraView setSelectedIndicate:progressView.curScale];
+[extraView setSelectedIndicate: ceil(round(progressView.curScale / (float)[progressView getNumberOfSegmentsInSection]))];
 //[extraView setSelectedIndicate: ceil(round(progressView.curScale / 5.0))];
 };
 
